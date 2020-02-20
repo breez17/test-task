@@ -1,0 +1,12 @@
+.c-header {
+  &__wrap-title {
+    width: 100%;
+    background: #4b555f;
+    padding: 5px 0;
+    &-name {
+      color: #848686;
+      text-transform: capitalize;
+      font-weight: 400;
+    }
+  }
+}

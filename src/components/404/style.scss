@@ -1,0 +1,41 @@
+.c-not-found {
+  background: linear-gradient(90deg, #5041b2 0%, #7969e5 100%);
+  width: 100%;
+  height: 100vh;
+
+  &__wrap-error {
+    padding-top: 40vh;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+
+    &-name {
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+
+    &-back {
+      border: none;
+      background: orange;
+      text-align: center;
+      padding: 5px 10px;
+      width: 200px;
+      margin: 2vh auto;
+      color: #f1f1f1;
+      border-radius: 4px;
+      text-transform: uppercase;
+      cursor: pointer;
+      box-shadow: 1px 1px 10px #000;
+      transition: all .3s;
+      outline: none;
+      text-decoration: none;
+
+      &:hover {
+        color: #ffffff;
+        box-shadow: 2px 3px 10px #000;
+      }
+    }
+  }
+}
